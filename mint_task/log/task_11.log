@@ -1,0 +1,649 @@
+Attempting to connect to Electrum API at: https://ep.atomicals.xyz/proxy
+Connected to Electrum API at: https://ep.atomicals.xyz/proxy
+Args { mint_ticker: 'neutron' }
+Meta undefined
+Ctx undefined
+====================================================================
+Mint Interactive FT (Decentralized)
+====================================================================
+Atomical type: FUNGIBLE (decentralized) [
+  {
+    name: 'args',
+    contentType: 'object',
+    data: { mint_ticker: 'neutron' }
+  }
+] neutron
+Mint for ticker:  neutron
+{
+  coin: 'Bitcoin',
+  network: 'mainnet',
+  height: 821940,
+  block_tip: '0000000000000000000289a824136d4222f8fea87b6f514d2f1f0091d8c0f958',
+  server_time: '2023-12-19T14:48:58.394296',
+  atomicals_block_tip: '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c',
+  atomical_count: 147138,
+  atomicals_block_hashes: {
+    '821931': 'b833f1c55e227e50cf9a04b15fc43be7e3f43298ffc541e45e112972a5f9f1d8',
+    '821932': 'ae299998ce6ee5217c43d41c307c4f889f4c40266b757294c715d8cd6beb8fe0',
+    '821933': 'f91967cc6467fa6e6ed79eed051f65c8c3ed1d22ef73a7d607da301fd4f29f0e',
+    '821934': '1ced4e14bef61705fa4ebbd711e7a50b1a5d185ca5a360d908c77a00fdc8896d',
+    '821935': '9b1ba95b574cf9225661e9fd57319c1552869ed7055a2cea1d344bb3b5aecb8d',
+    '821936': '2068f22128b66e7fe530fd61e014b55d62dd5b32da606a10483a17d76aa25add',
+    '821937': 'ace8457d98e04dfa7e81fee2799189a15d18b9e8ae3d40881041d3cf534ee3ec',
+    '821938': 'c427ed4e5379c063c7aa0e2891c41dc20fb73b4fcf17b25556b0da78ad267591',
+    '821939': '01caa9a4fd34971200958553f8b473eded121bafc9b3eaf5a922aea31ff60ac4',
+    '821940': '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c'
+  }
+} {
+  atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+  atomical_number: 144465,
+  atomical_ref: '3m0fzzx6t01t1an9nxpg79wknpxq2968s6prtvfnj479xrqs2angi0',
+  type: 'FT',
+  confirmed: true,
+  mint_info: {
+    commit_txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+    commit_index: 0,
+    commit_location: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    commit_tx_num: 934156019,
+    commit_height: 820831,
+    reveal_location_txid: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121',
+    reveal_location_index: 0,
+    reveal_location: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121i0',
+    reveal_location_tx_num: 934156020,
+    reveal_location_height: 820831,
+    reveal_location_header: '0040fd201b26789780c828a6f452422c07e7d6e4ee357588b6e9030000000000000000001d2944866f3c91ed9570d581371c6108256d2eb0fcdb8aad214097515e56954f10227865952e0417db14f575',
+    reveal_location_blockhash: 'cb2a1de4a4187211d5d5d61cabe39bd1671fd5b1c45a01000000000000000000',
+    reveal_location_scripthash: '70837553e9b17626fc149afd9fbfaf08e1618824a04eb10b2c08febf7d21d508',
+    reveal_location_script: '5120e75d4f2cc55c59c88058f251996eb6e527cb78c4b8895bdfbc034cdc2a6a6aa7',
+    reveal_location_value: 1000,
+    args: {
+      time: 1702370888,
+      nonce: 3711640,
+      request_ticker: 'neutron',
+      bitworkc: '1d00',
+      mint_bitworkc: '00000000',
+      mint_amount: 100000,
+      mint_height: 0,
+      max_mints: 21000
+    },
+    meta: {
+      name: 'NEUTRON',
+      description: 'The Atomicals era has begun.',
+      legal: [Object]
+    },
+    ctx: {},
+    '$mint_bitworkc': '00000000',
+    '$request_ticker': 'neutron',
+    '$bitwork': { bitworkc: '1d00', bitworkr: null },
+    reveal_location_address: 'bc1puaw57tx9t3vu3qzc7fgejm4ku5nuk7xyhzy4hhauqdxdc2n2d2ns0dzkga',
+    blockheader_info: Block {
+      version: 553467904,
+      prevHash: '00000000000000000003e9b6887535eee4d6e7072c4252f4a628c8809778261b',
+      merkleRoot: '4f95565e51974021ad8adbfcb02e6d2508611c3781d57095ed913c6f8644291d',
+      timestamp: 1702371856,
+      witnessCommit: undefined,
+      bits: 386150037,
+      nonce: 1978995931,
+      transactions: undefined
+    }
+  },
+  subtype: 'decentralized',
+  '$max_supply': 2100000000,
+  '$mint_height': 0,
+  '$mint_amount': 100000,
+  '$max_mints': 21000,
+  '$mint_bitworkc': '00000000',
+  '$bitwork': { bitworkc: '1d00', bitworkr: null },
+  '$ticker_candidates': [
+    {
+      tx_num: 934156019,
+      atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+      commit_height: 820831,
+      reveal_location_height: 820831
+    }
+  ],
+  '$request_ticker_status': {
+    status: 'verified',
+    verified_atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    note: 'Successfully verified and claimed ticker for current Atomical'
+  },
+  '$request_ticker': 'neutron',
+  '$ticker': 'neutron',
+  dft_info: { mint_count: 34 },
+  location_summary: { unique_holders: 17, circulating_supply: 3400000 }
+}
+Per mint amount: 100000
+There are already 34 mints of neutron out of a max total of 21000.
+atomicalDecorated {
+  global: {
+    coin: 'Bitcoin',
+    network: 'mainnet',
+    height: 821940,
+    block_tip: '0000000000000000000289a824136d4222f8fea87b6f514d2f1f0091d8c0f958',
+    server_time: '2023-12-19T14:48:58.394296',
+    atomicals_block_tip: '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c',
+    atomical_count: 147138,
+    atomicals_block_hashes: {
+      '821931': 'b833f1c55e227e50cf9a04b15fc43be7e3f43298ffc541e45e112972a5f9f1d8',
+      '821932': 'ae299998ce6ee5217c43d41c307c4f889f4c40266b757294c715d8cd6beb8fe0',
+      '821933': 'f91967cc6467fa6e6ed79eed051f65c8c3ed1d22ef73a7d607da301fd4f29f0e',
+      '821934': '1ced4e14bef61705fa4ebbd711e7a50b1a5d185ca5a360d908c77a00fdc8896d',
+      '821935': '9b1ba95b574cf9225661e9fd57319c1552869ed7055a2cea1d344bb3b5aecb8d',
+      '821936': '2068f22128b66e7fe530fd61e014b55d62dd5b32da606a10483a17d76aa25add',
+      '821937': 'ace8457d98e04dfa7e81fee2799189a15d18b9e8ae3d40881041d3cf534ee3ec',
+      '821938': 'c427ed4e5379c063c7aa0e2891c41dc20fb73b4fcf17b25556b0da78ad267591',
+      '821939': '01caa9a4fd34971200958553f8b473eded121bafc9b3eaf5a922aea31ff60ac4',
+      '821940': '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c'
+    }
+  },
+  result: {
+    atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    atomical_number: 144465,
+    atomical_ref: '3m0fzzx6t01t1an9nxpg79wknpxq2968s6prtvfnj479xrqs2angi0',
+    type: 'FT',
+    confirmed: true,
+    mint_info: {
+      commit_txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+      commit_index: 0,
+      commit_location: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      commit_tx_num: 934156019,
+      commit_height: 820831,
+      reveal_location_txid: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121',
+      reveal_location_index: 0,
+      reveal_location: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121i0',
+      reveal_location_tx_num: 934156020,
+      reveal_location_height: 820831,
+      reveal_location_header: '0040fd201b26789780c828a6f452422c07e7d6e4ee357588b6e9030000000000000000001d2944866f3c91ed9570d581371c6108256d2eb0fcdb8aad214097515e56954f10227865952e0417db14f575',
+      reveal_location_blockhash: 'cb2a1de4a4187211d5d5d61cabe39bd1671fd5b1c45a01000000000000000000',
+      reveal_location_scripthash: '70837553e9b17626fc149afd9fbfaf08e1618824a04eb10b2c08febf7d21d508',
+      reveal_location_script: '5120e75d4f2cc55c59c88058f251996eb6e527cb78c4b8895bdfbc034cdc2a6a6aa7',
+      reveal_location_value: 1000,
+      args: [Object],
+      meta: [Object],
+      ctx: {},
+      '$mint_bitworkc': '00000000',
+      '$request_ticker': 'neutron',
+      '$bitwork': [Object],
+      reveal_location_address: 'bc1puaw57tx9t3vu3qzc7fgejm4ku5nuk7xyhzy4hhauqdxdc2n2d2ns0dzkga',
+      blockheader_info: [Block]
+    },
+    subtype: 'decentralized',
+    '$max_supply': 2100000000,
+    '$mint_height': 0,
+    '$mint_amount': 100000,
+    '$max_mints': 21000,
+    '$mint_bitworkc': '00000000',
+    '$bitwork': { bitworkc: '1d00', bitworkr: null },
+    '$ticker_candidates': [ [Object] ],
+    '$request_ticker_status': {
+      status: 'verified',
+      verified_atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      note: 'Successfully verified and claimed ticker for current Atomical'
+    },
+    '$request_ticker': 'neutron',
+    '$ticker': 'neutron',
+    dft_info: { mint_count: 34 },
+    location_summary: { unique_holders: 17, circulating_supply: 3400000 }
+  }
+} {
+  atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+  atomical_number: 144465,
+  atomical_ref: '3m0fzzx6t01t1an9nxpg79wknpxq2968s6prtvfnj479xrqs2angi0',
+  type: 'FT',
+  confirmed: true,
+  mint_info: {
+    commit_txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+    commit_index: 0,
+    commit_location: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    commit_tx_num: 934156019,
+    commit_height: 820831,
+    reveal_location_txid: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121',
+    reveal_location_index: 0,
+    reveal_location: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121i0',
+    reveal_location_tx_num: 934156020,
+    reveal_location_height: 820831,
+    reveal_location_header: '0040fd201b26789780c828a6f452422c07e7d6e4ee357588b6e9030000000000000000001d2944866f3c91ed9570d581371c6108256d2eb0fcdb8aad214097515e56954f10227865952e0417db14f575',
+    reveal_location_blockhash: 'cb2a1de4a4187211d5d5d61cabe39bd1671fd5b1c45a01000000000000000000',
+    reveal_location_scripthash: '70837553e9b17626fc149afd9fbfaf08e1618824a04eb10b2c08febf7d21d508',
+    reveal_location_script: '5120e75d4f2cc55c59c88058f251996eb6e527cb78c4b8895bdfbc034cdc2a6a6aa7',
+    reveal_location_value: 1000,
+    args: {
+      time: 1702370888,
+      nonce: 3711640,
+      request_ticker: 'neutron',
+      bitworkc: '1d00',
+      mint_bitworkc: '00000000',
+      mint_amount: 100000,
+      mint_height: 0,
+      max_mints: 21000
+    },
+    meta: {
+      name: 'NEUTRON',
+      description: 'The Atomicals era has begun.',
+      legal: [Object]
+    },
+    ctx: {},
+    '$mint_bitworkc': '00000000',
+    '$request_ticker': 'neutron',
+    '$bitwork': { bitworkc: '1d00', bitworkr: null },
+    reveal_location_address: 'bc1puaw57tx9t3vu3qzc7fgejm4ku5nuk7xyhzy4hhauqdxdc2n2d2ns0dzkga',
+    blockheader_info: Block {
+      version: 553467904,
+      prevHash: '00000000000000000003e9b6887535eee4d6e7072c4252f4a628c8809778261b',
+      merkleRoot: '4f95565e51974021ad8adbfcb02e6d2508611c3781d57095ed913c6f8644291d',
+      timestamp: 1702371856,
+      witnessCommit: undefined,
+      bits: 386150037,
+      nonce: 1978995931,
+      transactions: undefined
+    }
+  },
+  subtype: 'decentralized',
+  '$max_supply': 2100000000,
+  '$mint_height': 0,
+  '$mint_amount': 100000,
+  '$max_mints': 21000,
+  '$mint_bitworkc': '00000000',
+  '$bitwork': { bitworkc: '1d00', bitworkr: null },
+  '$ticker_candidates': [
+    {
+      tx_num: 934156019,
+      atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+      commit_height: 820831,
+      reveal_location_height: 820831
+    }
+  ],
+  '$request_ticker_status': {
+    status: 'verified',
+    verified_atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    note: 'Successfully verified and claimed ticker for current Atomical'
+  },
+  '$request_ticker': 'neutron',
+  '$ticker': 'neutron',
+  dft_info: { mint_count: 34 },
+  location_summary: { unique_holders: 17, circulating_supply: 3400000 }
+}
+copiedData {
+  args: {
+    bitworkc: '00000000',
+    mint_ticker: 'neutron',
+    nonce: 9999999,
+    time: 1702997340
+  }
+}
+Payload CBOR Size (bytes):  66
+Payload Encoded:  {
+  args: {
+    bitworkc: '00000000',
+    mint_ticker: 'neutron',
+    nonce: 9999999,
+    time: 1702997340
+  }
+}
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+...
+...
+WAITING UNTIL 0.0013885 BTC RECEIVED AT bc1p29q4jrpw7le4s6yknf54j0gdctjytsc26vq4qn5uf2p5qmkzhzdse7gfhk
+...
+...
+...
+Attempting to connect to Electrum API at: https://ep.atomicals.xyz/proxy
+Connected to Electrum API at: https://ep.atomicals.xyz/proxy
+Args { mint_ticker: 'neutron' }
+Meta undefined
+Ctx undefined
+====================================================================
+Mint Interactive FT (Decentralized)
+====================================================================
+Atomical type: FUNGIBLE (decentralized) [
+  {
+    name: 'args',
+    contentType: 'object',
+    data: { mint_ticker: 'neutron' }
+  }
+] neutron
+Mint for ticker:  neutron
+{
+  coin: 'Bitcoin',
+  network: 'mainnet',
+  height: 821940,
+  block_tip: '0000000000000000000289a824136d4222f8fea87b6f514d2f1f0091d8c0f958',
+  server_time: '2023-12-19T14:58:41.666589',
+  atomicals_block_tip: '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c',
+  atomical_count: 147138,
+  atomicals_block_hashes: {
+    '821931': 'b833f1c55e227e50cf9a04b15fc43be7e3f43298ffc541e45e112972a5f9f1d8',
+    '821932': 'ae299998ce6ee5217c43d41c307c4f889f4c40266b757294c715d8cd6beb8fe0',
+    '821933': 'f91967cc6467fa6e6ed79eed051f65c8c3ed1d22ef73a7d607da301fd4f29f0e',
+    '821934': '1ced4e14bef61705fa4ebbd711e7a50b1a5d185ca5a360d908c77a00fdc8896d',
+    '821935': '9b1ba95b574cf9225661e9fd57319c1552869ed7055a2cea1d344bb3b5aecb8d',
+    '821936': '2068f22128b66e7fe530fd61e014b55d62dd5b32da606a10483a17d76aa25add',
+    '821937': 'ace8457d98e04dfa7e81fee2799189a15d18b9e8ae3d40881041d3cf534ee3ec',
+    '821938': 'c427ed4e5379c063c7aa0e2891c41dc20fb73b4fcf17b25556b0da78ad267591',
+    '821939': '01caa9a4fd34971200958553f8b473eded121bafc9b3eaf5a922aea31ff60ac4',
+    '821940': '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c'
+  }
+} {
+  atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+  atomical_number: 144465,
+  atomical_ref: '3m0fzzx6t01t1an9nxpg79wknpxq2968s6prtvfnj479xrqs2angi0',
+  type: 'FT',
+  confirmed: true,
+  mint_info: {
+    commit_txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+    commit_index: 0,
+    commit_location: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    commit_tx_num: 934156019,
+    commit_height: 820831,
+    reveal_location_txid: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121',
+    reveal_location_index: 0,
+    reveal_location: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121i0',
+    reveal_location_tx_num: 934156020,
+    reveal_location_height: 820831,
+    reveal_location_header: '0040fd201b26789780c828a6f452422c07e7d6e4ee357588b6e9030000000000000000001d2944866f3c91ed9570d581371c6108256d2eb0fcdb8aad214097515e56954f10227865952e0417db14f575',
+    reveal_location_blockhash: 'cb2a1de4a4187211d5d5d61cabe39bd1671fd5b1c45a01000000000000000000',
+    reveal_location_scripthash: '70837553e9b17626fc149afd9fbfaf08e1618824a04eb10b2c08febf7d21d508',
+    reveal_location_script: '5120e75d4f2cc55c59c88058f251996eb6e527cb78c4b8895bdfbc034cdc2a6a6aa7',
+    reveal_location_value: 1000,
+    args: {
+      time: 1702370888,
+      nonce: 3711640,
+      request_ticker: 'neutron',
+      bitworkc: '1d00',
+      mint_bitworkc: '00000000',
+      mint_amount: 100000,
+      mint_height: 0,
+      max_mints: 21000
+    },
+    meta: {
+      name: 'NEUTRON',
+      description: 'The Atomicals era has begun.',
+      legal: [Object]
+    },
+    ctx: {},
+    '$mint_bitworkc': '00000000',
+    '$request_ticker': 'neutron',
+    '$bitwork': { bitworkc: '1d00', bitworkr: null },
+    reveal_location_address: 'bc1puaw57tx9t3vu3qzc7fgejm4ku5nuk7xyhzy4hhauqdxdc2n2d2ns0dzkga',
+    blockheader_info: Block {
+      version: 553467904,
+      prevHash: '00000000000000000003e9b6887535eee4d6e7072c4252f4a628c8809778261b',
+      merkleRoot: '4f95565e51974021ad8adbfcb02e6d2508611c3781d57095ed913c6f8644291d',
+      timestamp: 1702371856,
+      witnessCommit: undefined,
+      bits: 386150037,
+      nonce: 1978995931,
+      transactions: undefined
+    }
+  },
+  subtype: 'decentralized',
+  '$max_supply': 2100000000,
+  '$mint_height': 0,
+  '$mint_amount': 100000,
+  '$max_mints': 21000,
+  '$mint_bitworkc': '00000000',
+  '$bitwork': { bitworkc: '1d00', bitworkr: null },
+  '$ticker_candidates': [
+    {
+      tx_num: 934156019,
+      atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+      commit_height: 820831,
+      reveal_location_height: 820831
+    }
+  ],
+  '$request_ticker_status': {
+    status: 'verified',
+    verified_atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    note: 'Successfully verified and claimed ticker for current Atomical'
+  },
+  '$request_ticker': 'neutron',
+  '$ticker': 'neutron',
+  dft_info: { mint_count: 34 },
+  location_summary: { unique_holders: 17, circulating_supply: 3400000 }
+}
+Per mint amount: 100000
+There are already 34 mints of neutron out of a max total of 21000.
+atomicalDecorated {
+  global: {
+    coin: 'Bitcoin',
+    network: 'mainnet',
+    height: 821940,
+    block_tip: '0000000000000000000289a824136d4222f8fea87b6f514d2f1f0091d8c0f958',
+    server_time: '2023-12-19T14:58:41.666589',
+    atomicals_block_tip: '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c',
+    atomical_count: 147138,
+    atomicals_block_hashes: {
+      '821931': 'b833f1c55e227e50cf9a04b15fc43be7e3f43298ffc541e45e112972a5f9f1d8',
+      '821932': 'ae299998ce6ee5217c43d41c307c4f889f4c40266b757294c715d8cd6beb8fe0',
+      '821933': 'f91967cc6467fa6e6ed79eed051f65c8c3ed1d22ef73a7d607da301fd4f29f0e',
+      '821934': '1ced4e14bef61705fa4ebbd711e7a50b1a5d185ca5a360d908c77a00fdc8896d',
+      '821935': '9b1ba95b574cf9225661e9fd57319c1552869ed7055a2cea1d344bb3b5aecb8d',
+      '821936': '2068f22128b66e7fe530fd61e014b55d62dd5b32da606a10483a17d76aa25add',
+      '821937': 'ace8457d98e04dfa7e81fee2799189a15d18b9e8ae3d40881041d3cf534ee3ec',
+      '821938': 'c427ed4e5379c063c7aa0e2891c41dc20fb73b4fcf17b25556b0da78ad267591',
+      '821939': '01caa9a4fd34971200958553f8b473eded121bafc9b3eaf5a922aea31ff60ac4',
+      '821940': '2f165a11e66e1176b3ff1e8728e015a309e2d4515198bfa11c4c1406641f798c'
+    }
+  },
+  result: {
+    atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    atomical_number: 144465,
+    atomical_ref: '3m0fzzx6t01t1an9nxpg79wknpxq2968s6prtvfnj479xrqs2angi0',
+    type: 'FT',
+    confirmed: true,
+    mint_info: {
+      commit_txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+      commit_index: 0,
+      commit_location: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      commit_tx_num: 934156019,
+      commit_height: 820831,
+      reveal_location_txid: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121',
+      reveal_location_index: 0,
+      reveal_location: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121i0',
+      reveal_location_tx_num: 934156020,
+      reveal_location_height: 820831,
+      reveal_location_header: '0040fd201b26789780c828a6f452422c07e7d6e4ee357588b6e9030000000000000000001d2944866f3c91ed9570d581371c6108256d2eb0fcdb8aad214097515e56954f10227865952e0417db14f575',
+      reveal_location_blockhash: 'cb2a1de4a4187211d5d5d61cabe39bd1671fd5b1c45a01000000000000000000',
+      reveal_location_scripthash: '70837553e9b17626fc149afd9fbfaf08e1618824a04eb10b2c08febf7d21d508',
+      reveal_location_script: '5120e75d4f2cc55c59c88058f251996eb6e527cb78c4b8895bdfbc034cdc2a6a6aa7',
+      reveal_location_value: 1000,
+      args: [Object],
+      meta: [Object],
+      ctx: {},
+      '$mint_bitworkc': '00000000',
+      '$request_ticker': 'neutron',
+      '$bitwork': [Object],
+      reveal_location_address: 'bc1puaw57tx9t3vu3qzc7fgejm4ku5nuk7xyhzy4hhauqdxdc2n2d2ns0dzkga',
+      blockheader_info: [Block]
+    },
+    subtype: 'decentralized',
+    '$max_supply': 2100000000,
+    '$mint_height': 0,
+    '$mint_amount': 100000,
+    '$max_mints': 21000,
+    '$mint_bitworkc': '00000000',
+    '$bitwork': { bitworkc: '1d00', bitworkr: null },
+    '$ticker_candidates': [ [Object] ],
+    '$request_ticker_status': {
+      status: 'verified',
+      verified_atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      note: 'Successfully verified and claimed ticker for current Atomical'
+    },
+    '$request_ticker': 'neutron',
+    '$ticker': 'neutron',
+    dft_info: { mint_count: 34 },
+    location_summary: { unique_holders: 17, circulating_supply: 3400000 }
+  }
+} {
+  atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+  atomical_number: 144465,
+  atomical_ref: '3m0fzzx6t01t1an9nxpg79wknpxq2968s6prtvfnj479xrqs2angi0',
+  type: 'FT',
+  confirmed: true,
+  mint_info: {
+    commit_txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+    commit_index: 0,
+    commit_location: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    commit_tx_num: 934156019,
+    commit_height: 820831,
+    reveal_location_txid: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121',
+    reveal_location_index: 0,
+    reveal_location: '27eed1dcec5a099b563475e7c112ada96026886410b136ffb9e562c3f1ad1121i0',
+    reveal_location_tx_num: 934156020,
+    reveal_location_height: 820831,
+    reveal_location_header: '0040fd201b26789780c828a6f452422c07e7d6e4ee357588b6e9030000000000000000001d2944866f3c91ed9570d581371c6108256d2eb0fcdb8aad214097515e56954f10227865952e0417db14f575',
+    reveal_location_blockhash: 'cb2a1de4a4187211d5d5d61cabe39bd1671fd5b1c45a01000000000000000000',
+    reveal_location_scripthash: '70837553e9b17626fc149afd9fbfaf08e1618824a04eb10b2c08febf7d21d508',
+    reveal_location_script: '5120e75d4f2cc55c59c88058f251996eb6e527cb78c4b8895bdfbc034cdc2a6a6aa7',
+    reveal_location_value: 1000,
+    args: {
+      time: 1702370888,
+      nonce: 3711640,
+      request_ticker: 'neutron',
+      bitworkc: '1d00',
+      mint_bitworkc: '00000000',
+      mint_amount: 100000,
+      mint_height: 0,
+      max_mints: 21000
+    },
+    meta: {
+      name: 'NEUTRON',
+      description: 'The Atomicals era has begun.',
+      legal: [Object]
+    },
+    ctx: {},
+    '$mint_bitworkc': '00000000',
+    '$request_ticker': 'neutron',
+    '$bitwork': { bitworkc: '1d00', bitworkr: null },
+    reveal_location_address: 'bc1puaw57tx9t3vu3qzc7fgejm4ku5nuk7xyhzy4hhauqdxdc2n2d2ns0dzkga',
+    blockheader_info: Block {
+      version: 553467904,
+      prevHash: '00000000000000000003e9b6887535eee4d6e7072c4252f4a628c8809778261b',
+      merkleRoot: '4f95565e51974021ad8adbfcb02e6d2508611c3781d57095ed913c6f8644291d',
+      timestamp: 1702371856,
+      witnessCommit: undefined,
+      bits: 386150037,
+      nonce: 1978995931,
+      transactions: undefined
+    }
+  },
+  subtype: 'decentralized',
+  '$max_supply': 2100000000,
+  '$mint_height': 0,
+  '$mint_amount': 100000,
+  '$max_mints': 21000,
+  '$mint_bitworkc': '00000000',
+  '$bitwork': { bitworkc: '1d00', bitworkr: null },
+  '$ticker_candidates': [
+    {
+      tx_num: 934156019,
+      atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+      txid: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912ab',
+      commit_height: 820831,
+      reveal_location_height: 820831
+    }
+  ],
+  '$request_ticker_status': {
+    status: 'verified',
+    verified_atomical_id: '1d00ffffa6d003a0aaa9af6d03a793adbb7124c8c9ad8d6df5910e9ee2f912abi0',
+    note: 'Successfully verified and claimed ticker for current Atomical'
+  },
+  '$request_ticker': 'neutron',
+  '$ticker': 'neutron',
+  dft_info: { mint_count: 34 },
+  location_summary: { unique_holders: 17, circulating_supply: 3400000 }
+}
+copiedData {
+  args: {
+    bitworkc: '00000000',
+    mint_ticker: 'neutron',
+    nonce: 9999999,
+    time: 1702997923
+  }
+}
+Payload CBOR Size (bytes):  66
+Payload Encoded:  {
+  args: {
+    bitworkc: '00000000',
+    mint_ticker: 'neutron',
+    nonce: 9999999,
+    time: 1702997923
+  }
+}
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+...
+...
+WAITING UNTIL 0.0013885 BTC RECEIVED AT bc1p29q4jrpw7le4s6yknf54j0gdctjytsc26vq4qn5uf2p5qmkzhzdse7gfhk
+...
+...
